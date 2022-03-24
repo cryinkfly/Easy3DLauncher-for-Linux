@@ -1,4 +1,4 @@
-# Radial-Menu-for-Linux
+# Easy3DLauncher for Linux
 With the help of this tool you can execute some commands with the mouse. Ideal for FreeCAD, Autodesk Fusion 360, ...
 
 ## STILL IN PROGRESS!!!
