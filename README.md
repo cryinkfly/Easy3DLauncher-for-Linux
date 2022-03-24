@@ -3,5 +3,5 @@ With the help of this tool you can execute some commands with the mouse. Ideal f
 
 ## STILL IN PROGRESS!!!
 
-![leayout-test-1](https://user-images.githubusercontent.com/79079633/159956781-56dec9e6-ff8c-4255-bc7a-3689f1df04ef.png)
+![leayout-test-1](https://user-images.githubusercontent.com/79079633/159959287-75526f9c-05b1-4098-afc7-c4aeb367d37f.png)
 
