@@ -106,8 +106,7 @@ yad \
 --field="Click Down 10":BTN "bash -c on_click" \
 --field="Click Down 11":BTN "bash -c on_click" \
 --field="Click Down 12":BTN "bash -c on_click" \
---button="About:1" \
---button="Settings:2"  \
+--button="Settings:1"  \
 --button="Close:99"
 
 ret=$?
@@ -115,12 +114,6 @@ ret=$?
 # Responses to above button presses are below:
 
 if [[ $ret -eq 1 ]]; then
-    echo "About"
-   . easy3dlauncher.sh
-   . about.sh
-fi
-
-if [[ $ret -eq 2 ]]; then
     echo "Settings"
     . easy3dlauncher.sh
     . settings.sh
