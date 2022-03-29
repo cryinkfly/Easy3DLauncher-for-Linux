@@ -9,10 +9,12 @@ exec 3<> $FIFO
 yad --notification --command='cmd -c pacui u' --listen <&3 &
 # Menü wird definiert:
 >&3 echo "menu:\
-Shortcuts!./shortcuts-dialog.sh|\
-Units input!./units-dialog.sh|\
-Configuration!./config-dialog.sh|\
-Close!pkill yad \
+Shortcuts ...!./shortcuts-dialog.sh|\
+Workspace ...!./workspace-dialog.sh|\
+Documentation ...!./help-dialog.sh|\
+Settings ...!./config-dialog.sh|\
+About ...!./about-dialog.sh|\
+Close ...!pkill yad \
 "
 # Tooltip wird definiert:
 >&3 echo "TOOLTIP:Easy3DLauncher - This tool allows you to execute some commands with using the mouse."
