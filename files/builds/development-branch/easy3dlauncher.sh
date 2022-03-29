@@ -10,6 +10,7 @@ yad --notification --command='cmd -c pacui u' --listen <&3 &
 # Menü wird definiert:
 >&3 echo "menu:\
 Shortcuts!./shortcuts-dialog.sh|\
+Units input!./units-dialog.sh|\
 Configuration!./config-dialog.sh|\
 Close!pkill yad \
 "
