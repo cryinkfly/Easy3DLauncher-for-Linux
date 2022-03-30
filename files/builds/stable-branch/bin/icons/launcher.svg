@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="240"
+   height="240"
+   viewBox="0 0 240 240"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="launcher.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.35"
+     inkscape:cx="157.03704"
+     inkscape:cy="215.18519"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="262.88859"
+       y="96.405594"
+       width="125.06203"
+       height="141.6831"
+       id="rect26901" />
+    <rect
+       x="165.71366"
+       y="103.42016"
+       width="109.47605"
+       height="55.610442"
+       id="rect11850" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="34.416196 : 114.11825 : 1"
+       inkscape:vp_y="0 : 542.04168 : 0"
+       inkscape:vp_z="304.85669 : 197.00275 : 1"
+       inkscape:persp3d-origin="102.3485 : 92.43659 : 1"
+       id="perspective852" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath17945">
+      <circle
+         style="opacity:0.854896;fill:#90ebcd;fill-opacity:1;stroke-width:9.00157"
+         id="circle17947"
+         cx="120"
+         cy="120"
+         r="100" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#30ba78;fill-opacity:1;stroke-width:11.252"
+       id="path8984-6"
+       cx="120"
+       cy="120"
+       r="124.99999" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke-width:9.02408"
+       id="path8984-3"
+       cx="120"
+       cy="120"
+       r="100.25" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#30ba78;stroke-width:12.3083;stroke-opacity:1"
+       id="path12154"
+       cx="120"
+       cy="120"
+       rx="22.254944"
+       ry="22.254946" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#30ba78;stroke-width:27.1284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path12351"
+       cx="120"
+       cy="120"
+       rx="85.887276"
+       ry="64.933517" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#30ba78;stroke-width:25.0306;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path12351-6"
+       cx="120.00011"
+       cy="-120.00008"
+       rx="86.936188"
+       ry="54.612164"
+       transform="rotate(90)" />
+  </g>
+</svg>
