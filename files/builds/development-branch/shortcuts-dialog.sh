@@ -1,14 +1,14 @@
 #! /bin/bash
 
 ####################################################################################################
-# Name:         Easy3DLauncher for Linux - Launcher (Linux)                                        #
-# Description:  With this program you can execute some commands with the mouse on Linux.           #
+# Name:         Easy3DLauncher for Linux - Shortcuts Dialog (Linux)                                #
+# Description:  With this program you can execute your favourite commands with the mouse on Linux. #
 # Author:       Steve Zabka                                                                        #
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    18:15/29.03.2022                                                                   #
-# Version:      0.0.3                                                                              #
+# Time/Date:    15:15/30.03.2022                                                                   #
+# Version:      0.0.4                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts-dialog.sh
