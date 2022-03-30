@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    15:15/30.03.2022                                                                   #
-# Version:      0.0.4                                                                              #
+# Time/Date:    18:45/30.03.2022                                                                   #
+# Version:      0.0.5                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts-dialog.sh
@@ -86,7 +86,7 @@ export -f on_click12
 # The DIALOG STARTS HERE:                                                                                                                              #
 ###############################################################################################################################################################
 
-GTK_THEME="easy3dlauncher-dialog" \
+GTK_THEME="easy3dlauncher" \
 yad \
 --title="Easy3DLauncher" \
 --form \
