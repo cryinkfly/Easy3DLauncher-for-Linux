@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 ####################################################################################################
 # Name:         Easy3DLauncher for Linux - Shortcuts Dialog (Linux)                                #
@@ -118,18 +118,18 @@ yad \
 --center \
 --columns=3 \
 --buttons-layout=center \
---field="Click Down 1":BTN "bash -c on_click" \
---field="Click Down 2":BTN "bash -c on_click" \
---field="Click Down 3":BTN "bash -c on_click" \
---field="Click Down 4":BTN "bash -c on_click" \
---field="Click Down 5":BTN "bash -c on_click" \
---field="Click Down 6":BTN "bash -c on_click" \
---field="Click Down 7":BTN "bash -c on_click" \
---field="Click Down 8":BTN "bash -c on_click" \
---field="Click Down 9":BTN "bash -c on_click" \
---field="Click Down 10":BTN "bash -c on_click" \
---field="Click Down 11":BTN "bash -c on_click" \
---field="Click Down 12":BTN "bash -c on_click" \
+--field="Click Down 1":BTN "bash -c on_click1" \
+--field="Click Down 2":BTN "bash -c on_click2" \
+--field="Click Down 3":BTN "bash -c on_click3" \
+--field="Click Down 4":BTN "bash -c on_click4" \
+--field="Click Down 5":BTN "bash -c on_click5" \
+--field="Click Down 6":BTN "bash -c on_click6" \
+--field="Click Down 7":BTN "bash -c on_click7" \
+--field="Click Down 8":BTN "bash -c on_click8" \
+--field="Click Down 9":BTN "bash -c on_click9" \
+--field="Click Down 10":BTN "bash -c on_click10" \
+--field="Click Down 11":BTN "bash -c on_click11" \
+--field="Click Down 12":BTN "bash -c on_click12" \
 --button="Settings:1"  \
 --button="Close:99"
 
