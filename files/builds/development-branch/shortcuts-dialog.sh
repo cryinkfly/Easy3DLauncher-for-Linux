@@ -20,73 +20,73 @@
 function on_click1 () {
 echo "clicked 1"
 button1=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 18'`
-$button1
+bash -c "$button1"
 }
 
 function on_click2 () {
 echo "clicked 2"
 button2=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 22'`
-$button2
+bash -c "$button2"
 }
 
 function on_click3 () {
 echo "clicked 3"
 button3=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 26'`
-$button3
+bash -c "$button3"
 }
 
 function on_click4 () {
 echo "clicked 4"
 button4=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 30'`
-$button4
+bash -c "$button4"
 }
 
 function on_click5 () {
 echo "clicked 5"
 button5=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 34'`
-$button5
+bash -c "$button5"
 }
 
 function on_click6 () {
 echo "clicked 6"
 button6=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 38'`
-$button6
+bash -c "$button6"
 }
 
 function on_click7 () {
 echo "clicked 7"
 button7=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 42'`
-$button7
+bash -c "$button7"
 }
 
 function on_click8 () {
 echo "clicked 8"
 button8=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 46'`
-$button8
+bash -c "$button8"
 }
 
 function on_click9 () {
 echo "clicked 9"
 button9=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 50'`
-$button9
+bash -c "$button9"
 }
 
 function on_click10 () {
 echo "clicked 10"
 button10=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 54'`
-$button10
+bash -c "$button10"
 }
 
 function on_click11 () {
 echo "clicked 11"
 button11=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 58'`
-$button11
+bash -c "$button11"
 }
 
 function on_click12 () {
 echo "clicked 12"
 button12=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 62'`
-$button12
+bash -c "$button12"
 }
 
 ###############################################################################################################################################################
