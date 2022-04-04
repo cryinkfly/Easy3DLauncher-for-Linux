@@ -26,7 +26,7 @@ yad \
 --column=Software \
 false "Autodesk Fusion 360" \
 false "FreeCAD" \
---title="Easy3DLauncher - Profiles" \
+--title="Easy3DLauncher - Workspace" \
 --undecorated \
 --center \
 --button="Cancel:1"  \
