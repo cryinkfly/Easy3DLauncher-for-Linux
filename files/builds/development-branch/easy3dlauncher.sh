@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    16:45/30.03.2022                                                                   #
-# Version:      0.0.3                                                                              #
+# Time/Date:    19:00/04.04.2022                                                                   #
+# Version:      0.0.4                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts-dialog.sh
@@ -23,14 +23,14 @@ mkfifo $Easy3DLauncher
 # Kanal wird etabliert:
 exec 3<> $Easy3DLauncher
 # Yad wird gestartet:
-yad --notification --command='./shortcuts-dialog.sh' --listen <&3 &
+yad --notification --command='./shortcuts.sh' --listen <&3 &
 # Menü wird definiert:
 >&3 echo "menu:\
-Shortcuts ...!./shortcuts-dialog.sh!/$HOME/.local/share/icons/Easy3DLauncher/favorite.svg|\
-Workspace ...!./workspace-dialog.sh!/$HOME/.local/share/icons/Easy3DLauncher/window.svg|\
-Documentation ...!./help-dialog.sh!/$HOME/.local/share/icons/Easy3DLauncher/help.svg|\
-Settings ...!./config-dialog.sh!/$HOME/.local/share/icons/Easy3DLauncher/settings.svg|\
-About ...!./about-dialog.sh!/$HOME/.local/share/icons/Easy3DLauncher/about.svg|\
+Shortcuts ...!./shortcuts.sh!/$HOME/.local/share/icons/Easy3DLauncher/favorite.svg|\
+Workspace ...!./workspace.sh!/$HOME/.local/share/icons/Easy3DLauncher/window.svg|\
+Documentation ...!./help.sh!/$HOME/.local/share/icons/Easy3DLauncher/help.svg|\
+Settings ...!./settings.sh!/$HOME/.local/share/icons/Easy3DLauncher/settings.svg|\
+About ...!./about.sh!/$HOME/.local/share/icons/Easy3DLauncher/about.svg|\
 Exit ...!pkill yad!/$HOME/.local/share/icons/Easy3DLauncher/exit.svg \
 "
 # Tooltip wird definiert:
