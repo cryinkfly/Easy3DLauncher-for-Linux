@@ -7,11 +7,11 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    21:00/01.04.2022                                                                   #
-# Version:      0.0.6                                                                              #
+# Time/Date:    19:00/04.04.2022                                                                   #
+# Version:      0.0.7                                                                              #
 ####################################################################################################
 
-# Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts-dialog.sh
+# Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts.sh
 
 ###############################################################################################################################################################
 # ALL LOG-FUNCTIONS ARE ARRANGED HERE:                                                                                                                        #
@@ -139,6 +139,5 @@ ret=$?
 
 if [[ $ret -eq 1 ]]; then
     echo "Settings"
-    . easy3dlauncher.sh
     . settings.sh
 fi
