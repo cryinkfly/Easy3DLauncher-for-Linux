@@ -56,7 +56,7 @@ button:hover {
 
 button:active,
    button:checked {
-   background-color:    #90EBCD;
+   background-color: #90EBCD;
    transition-duration: 50ms; 
 }
 
@@ -71,15 +71,33 @@ button.flat, button.sidebar-button {
 }
 
 radio {
-   background-color:    #0C322C;
+   background-color: #0C322C;
    color: #FFFFFF;
    border-radius: 4px;
    padding: 2px;
 }
 
 check {
-   background-color:    #0C322C;
+   background-color: #0C322C;
    color: #FFFFFF;
    border-radius: 4px;
    padding: 2px;
+}
+
+treeview.view header button { 
+   color: #EFEFEF; 
+   border-color: #222222;
+}
+
+treeview.view header button { 
+   border-color: #222222;
+   color: #222222;
+   background-color: #222222;
+   font-size:10px; 
+   font-weight: bold; 
+}
+
+treeview.view header button box { 
+   border-color: #222222;
+   background-color: #EFEFEF;
 }
