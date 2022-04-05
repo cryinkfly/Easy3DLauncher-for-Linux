@@ -1,60 +1,85 @@
 /* Place this file in ~/.local/share/themes/easy3dlauncher/gtk-3.0 */
+/* Add the line: GTK_THEME="easy3dlauncher"  to the beginning of your script. */
 
+.background {
+   color: #EFEFEF;
+   border: 5px solid;
+   border-radius: 40px;
+   border-color: rgba(48, 186, 120, 0.999);
+}
+ 
 box {
-   background-color:  #EFEFEF;  
-   padding: 10px;                                              /* Padding between button and panel edge. */
-   color: #222222;                                             /* Text color for everything. */
-   text-shadow: 0 1px black;                                   /* Adds a black outline on the font*/
-   border: 0px solid;                                          /* Width of border. */
-   border-radius: 50px;                                        /* How rounded the corners are. */
-   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Color transition around the border. */
-   border-top-color: #2481B7;                                  /* Border colors. */
-   border-right-color: #2481B7;                                /* Border colors. */
-   border-left-color: #2481B7;                                 /* Border colors. */
-   border-bottom-color: #227AAD;                               /* Border colors. */
+   background-color: #222222;  
+   padding: 5px;
+   border-radius: 38px;
 }
 
 button box {
-   background-color:   #0C322C;
-   color: #EFEFEF;
-   padding: 1px;
+   background-color: #EFEFEF;
 }
 
 button:hover box {
-   background-color:   #FE7C3F;
+   background-color: #FE7C3F;
 }
 
 button:active box {
-   background-color:   #90EBCD;
-transition-duration: 50ms;
+   background-color: #90EBCD;
+   transition-duration: 50ms;
+}
+
+button.flat box {
+   background-color: #30BA78;
+   padding: 5px 10px 5px 10px;
+}
+
+button.flat:hover box {
+   background-color: #FE7C3F;
 }
 
 button {
-   background-color:   #0C322C; 
-   padding: 2px;
-   border: 2px solid;
-   font: 10px "Liberation Sans";                               /* Changes font size and type in boxes only. Place line above for whole box. */
-   font-weight: Bold;                                          /* Bold*/
-   text-shadow: 0 1px black;                                   /* Adds a black outline on the font*/
-   color: #EFEFEF;                                             /* Doesn't work if box color is activated */
-   border-radius: 8px;
-   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-   border-top-color: #30BA78;
-   border-right-color: #30BA78;
-   border-left-color: #30BA78;
-   border-bottom-color: #30BA78;
-   box-shadow: inset 0 1px #1B98BD;                            /* Button highlight color*/
+   min-height: 22px;
+   min-width: 20px;
+   border: 3px solid;
+   border-radius: 25px;
+   border-color: transparent;
+   color: #222222;
+   background-color: #EFEFEF;
+   font-size:10px; 
+   font-weight: bold;
 }
 
 button:hover {
    background-color: #FE7C3F;
-   color: #95E7F0;
-   box-shadow: inset 0 1px #77DEFC;                            /* Button highlight color hovered*/
-   -gtk-icon-effect: highlight; 
+   color: #222222;
+   border-color: #FE7C3F;
 }
 
-button:active,                                                 /* Pressed button color*/
-  button:checked {
-  background-color:    #90EBCD;
-  transition-duration: 50ms; 
+button:active,
+   button:checked {
+   background-color:    #90EBCD;
+   transition-duration: 50ms; 
+}
+
+button.flat, button.sidebar-button {
+   border: 2px solid;
+   border-radius: 20px;
+   border-color: transparent;
+   color: #222222;
+   background-color: transparent;
+   font-size:15px;
+   font-weight: normal;
+}
+
+radio {
+   background-color:    #0C322C;
+   color: #FFFFFF;
+   border-radius: 4px;
+   padding: 2px;
+}
+
+check {
+   background-color:    #0C322C;
+   color: #FFFFFF;
+   border-radius: 4px;
+   padding: 2px;
 }
