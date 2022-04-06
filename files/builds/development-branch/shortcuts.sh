@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    19:00/04.04.2022                                                                   #
-# Version:      0.0.7                                                                              #
+# Time/Date:    09:30/06.04.2022                                                                   #
+# Version:      0.0.8                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts.sh
@@ -17,75 +17,99 @@
 # ALL LOG-FUNCTIONS ARE ARRANGED HERE:                                                                                                                        #
 ###############################################################################################################################################################
 
+# Check the current workspace
+function check_workspace {
+current_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 17'`
+}
+
+###############################################################################################################################################################
+
+# Load the configuration data
+function sync_workspace {
+if [[ $current_workspace = "Workspace=0" ]]; then
+    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 27'`
+fi
+
+if [[ $current_workspace = "Workspace=1" ]]; then
+    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 31'`
+fi
+
+if [[ $current_workspace = "Workspace=2" ]]; then
+    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 35'`
+fi
+}
+
+###############################################################################################################################################################
+
 function on_click1 () {
 echo "clicked 1"
-button1=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 18'`
+button1=`cat $load_workspace | awk 'NR == 18'`
 bash -c "$button1"
 }
 
 function on_click2 () {
 echo "clicked 2"
-button2=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 22'`
+button2=`cat $load_workspace | awk 'NR == 22'`
 bash -c "$button2"
 }
 
 function on_click3 () {
 echo "clicked 3"
-button3=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 26'`
+button3=`cat $load_workspace | awk 'NR == 26'`
 bash -c "$button3"
 }
 
 function on_click4 () {
 echo "clicked 4"
-button4=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 30'`
+button4=`cat $load_workspace | awk 'NR == 30'`
 bash -c "$button4"
 }
 
 function on_click5 () {
 echo "clicked 5"
-button5=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 34'`
+button5=`cat $load_workspace | awk 'NR == 34'`
 bash -c "$button5"
 }
 
 function on_click6 () {
 echo "clicked 6"
-button6=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 38'`
+button6=`cat $load_workspace | awk 'NR == 38'`
 bash -c "$button6"
 }
 
 function on_click7 () {
 echo "clicked 7"
-button7=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 42'`
+button7=`cat $load_workspace | awk 'NR == 42'`
 bash -c "$button7"
 }
 
 function on_click8 () {
 echo "clicked 8"
-button8=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 46'`
+button8=`cat $load_workspace | awk 'NR == 46'`
 bash -c "$button8"
 }
 
 function on_click9 () {
 echo "clicked 9"
-button9=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 50'`
+button9=`cat $load_workspace | awk 'NR == 50'`
 bash -c "$button9"
 }
 
 function on_click10 () {
 echo "clicked 10"
-button10=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 54'`
+button10=`cat $load_workspace | awk 'NR == 54'`
 bash -c "$button10"
 }
 
 function on_click11 () {
 echo "clicked 11"
-button11=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 58'`
+button11=`cat $load_workspace | awk 'NR == 58'`
 bash -c "$button11"
 }
 
 function on_click12 () {
 echo "clicked 12"
-button12=`cat $HOME/.config/Easy3DLauncher/profiles/shortcuts.config | awk 'NR == 62'`
+button12=`cat $load_workspace | awk 'NR == 62'`
 bash -c "$button12"
 }
 
