@@ -41,6 +41,8 @@ if [[ $ret -eq 1 ]]; then
     . settings.sh
 elif [[ $answer = "TRUE|Autodesk Fusion 360|" ]]; then
     sed -i '17s/.*/Workspace=1/' /$HOME/.config/Easy3DLauncher/profiles/profile.config
+elif [[ $answer = "TRUE|FreeCAD|" ]]; then
+    sed -i '17s/.*/Workspace=2/' /$HOME/.config/Easy3DLauncher/profiles/profile.config
 else 
     sed -i '17s/.*/Workspace=0/' /$HOME/.config/Easy3DLauncher/profiles/profile.config
 fi
