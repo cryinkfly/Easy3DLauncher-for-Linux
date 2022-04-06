@@ -28,14 +28,12 @@ current_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | aw
 function sync_workspace {
 if [[ $current_workspace = "Workspace=0" ]]; then
     load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 27'`
-fi
-
-if [[ $current_workspace = "Workspace=1" ]]; then
+elif [[ $current_workspace = "Workspace=1" ]]; then
     load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 31'`
-fi
-
-if [[ $current_workspace = "Workspace=2" ]]; then
+elif [[ $current_workspace = "Workspace=2" ]]; then
     load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 35'`
+else
+    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 27'`
 fi
 }
 
