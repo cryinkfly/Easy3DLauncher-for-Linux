@@ -7,11 +7,11 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    19:00/04.04.2022                                                                   #
-# Version:      0.0.4                                                                              #
+# Time/Date:    09:00/06.04.2022                                                                   #
+# Version:      0.0.5                                                                              #
 ####################################################################################################
 
-# Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts-dialog.sh
+# Path: /$HOME/.config/Easy3DLauncher/bin/easy3dlauncher.sh
 
 ###############################################################################################################################################################
 # ALL LOG-FUNCTIONS ARE ARRANGED HERE:                                                                                                                        #
