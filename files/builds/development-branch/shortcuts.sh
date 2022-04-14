@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    09:30/06.04.2022                                                                   #
-# Version:      0.0.8                                                                              #
+# Time/Date:    10:30/14.04.2022                                                                   #
+# Version:      0.0.9                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts.sh
@@ -17,98 +17,64 @@
 # ALL LOG-FUNCTIONS ARE ARRANGED HERE:                                                                                                                        #
 ###############################################################################################################################################################
 
-# Check the current workspace
-function check_workspace {
-current_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 17'`
-}
-
-###############################################################################################################################################################
-
-# Load the configuration data
-function sync_workspace {
-if [[ $current_workspace = "Workspace=0" ]]; then
-    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 27'`
-elif [[ $current_workspace = "Workspace=1" ]]; then
-    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 31'`
-elif [[ $current_workspace = "Workspace=2" ]]; then
-    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 35'`
-else
-    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 27'`
-fi
-}
-
-###############################################################################################################################################################
-
 function on_click1 () {
-echo "clicked 1"
-button1=`cat $load_workspace | awk 'NR == 18'`
-bash -c "$button1"
+button_clicked=1
+. button-clicked.sh
 }
 
 function on_click2 () {
-echo "clicked 2"
-button2=`cat $load_workspace | awk 'NR == 22'`
-bash -c "$button2"
+button_clicked=2
+. button-clicked.sh
 }
 
 function on_click3 () {
-echo "clicked 3"
-button3=`cat $load_workspace | awk 'NR == 26'`
-bash -c "$button3"
+button_clicked=3
+. button-clicked.sh
 }
 
 function on_click4 () {
-echo "clicked 4"
-button4=`cat $load_workspace | awk 'NR == 30'`
-bash -c "$button4"
+button_clicked=4
+. button-clicked.sh
 }
 
 function on_click5 () {
-echo "clicked 5"
-button5=`cat $load_workspace | awk 'NR == 34'`
-bash -c "$button5"
+button_clicked=5
+. button-clicked.sh
 }
 
 function on_click6 () {
-echo "clicked 6"
-button6=`cat $load_workspace | awk 'NR == 38'`
-bash -c "$button6"
+button_clicked=6
+. button-clicked.sh
 }
 
 function on_click7 () {
-echo "clicked 7"
-button7=`cat $load_workspace | awk 'NR == 42'`
-bash -c "$button7"
+button_clicked=7
+. button-clicked.sh
 }
 
 function on_click8 () {
-echo "clicked 8"
-button8=`cat $load_workspace | awk 'NR == 46'`
-bash -c "$button8"
+button_clicked=8
+. button-clicked.sh
 }
 
 function on_click9 () {
-echo "clicked 9"
-button9=`cat $load_workspace | awk 'NR == 50'`
-bash -c "$button9"
+button_clicked=9
+. button-clicked.sh
 }
 
 function on_click10 () {
-echo "clicked 10"
-button10=`cat $load_workspace | awk 'NR == 54'`
-bash -c "$button10"
+button_clicked=10
+. button-clicked.sh
 }
 
 function on_click11 () {
-echo "clicked 11"
-button11=`cat $load_workspace | awk 'NR == 58'`
-bash -c "$button11"
+button_clicked=11
+. button-clicked.sh
 }
 
 function on_click12 () {
-echo "clicked 12"
-button12=`cat $load_workspace | awk 'NR == 62'`
-bash -c "$button12"
+button_clicked=12
+. button-clicked.sh
 }
 
 ###############################################################################################################################################################
