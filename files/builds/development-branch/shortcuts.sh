@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    10:30/14.04.2022                                                                   #
-# Version:      0.0.9                                                                              #
+# Time/Date:    19:00/15.04.2022                                                                   #
+# Version:      0.1.0                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts.sh
@@ -16,6 +16,47 @@
 ###############################################################################################################################################################
 # ALL LOG-FUNCTIONS ARE ARRANGED HERE:                                                                                                                        #
 ###############################################################################################################################################################
+
+# Check the current workspace
+function check_workspace {
+current_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 17'`
+}
+
+###############################################################################################################################################################
+
+# Load the configuration data
+function sync_workspace {
+if [[ $current_workspace = "Workspace=0" ]]; then
+    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 27'`
+elif [[ $current_workspace = "Workspace=1" ]]; then
+    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 31'`
+elif [[ $current_workspace = "Workspace=2" ]]; then
+    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 35'`
+else
+    load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 27'`
+fi
+
+# Here the buttons get their names from the functions:
+btn1_name=`cat $load_workspace | awk 'NR == 17'`
+btn2_name=`cat $load_workspace | awk 'NR == 21'`
+btn3_name=`cat $load_workspace | awk 'NR == 25'`
+btn4_name=`cat $load_workspace | awk 'NR == 29'`
+btn5_name=`cat $load_workspace | awk 'NR == 33'`
+btn6_name=`cat $load_workspace | awk 'NR == 37'`
+btn7_name=`cat $load_workspace | awk 'NR == 41'`
+btn8_name=`cat $load_workspace | awk 'NR == 45'`
+btn9_name=`cat $load_workspace | awk 'NR == 49'`
+btn10_name=`cat $load_workspace | awk 'NR == 53'`
+btn11_name=`cat $load_workspace | awk 'NR == 57'`
+btn12_name=`cat $load_workspace | awk 'NR == 61'`
+}
+
+check_workspace
+sync_workspace
+
+###############################################################################################################################################################
+
+# Here the buttons get the functions:
 
 function on_click1 () {
 button_clicked=1
@@ -106,18 +147,18 @@ yad \
 --center \
 --columns=3 \
 --buttons-layout=center \
---field="Click Down 1":BTN "bash -c on_click1" \
---field="Click Down 2":BTN "bash -c on_click2" \
---field="Click Down 3":BTN "bash -c on_click3" \
---field="Click Down 4":BTN "bash -c on_click4" \
---field="Click Down 5":BTN "bash -c on_click5" \
---field="Click Down 6":BTN "bash -c on_click6" \
---field="Click Down 7":BTN "bash -c on_click7" \
---field="Click Down 8":BTN "bash -c on_click8" \
---field="Click Down 9":BTN "bash -c on_click9" \
---field="Click Down 10":BTN "bash -c on_click10" \
---field="Click Down 11":BTN "bash -c on_click11" \
---field="Click Down 12":BTN "bash -c on_click12" \
+--field="$btn1_name":BTN "bash -c on_click1" \
+--field="$btn2_name":BTN "bash -c on_click2" \
+--field="$btn3_name":BTN "bash -c on_click3" \
+--field="$btn4_name":BTN "bash -c on_click4" \
+--field="$btn5_name":BTN "bash -c on_click5" \
+--field="$btn6_name":BTN "bash -c on_click6" \
+--field="$btn7_name":BTN "bash -c on_click7" \
+--field="$btn8_name":BTN "bash -c on_click8" \
+--field="$btn9_name":BTN "bash -c on_click9" \
+--field="$btn10_name":BTN "bash -c on_click10" \
+--field="$btn11_name":BTN "bash -c on_click11" \
+--field="$btn12_name":BTN "bash -c on_click12" \
 --button="Settings:1"  \
 --button="Close:99"
 
