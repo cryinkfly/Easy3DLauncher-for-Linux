@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    11:00/16.04.2022                                                                   #
-# Version:      0.1.1                                                                              #
+# Time/Date:    11:30/16.04.2022                                                                   #
+# Version:      0.1.2                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts.sh
@@ -37,18 +37,33 @@ else
 fi
 
 # Here the buttons get their names from the functions:
-btn1_name=`cat $load_workspace | awk 'NR == 17'`
-btn2_name=`cat $load_workspace | awk 'NR == 21'`
-btn3_name=`cat $load_workspace | awk 'NR == 25'`
-btn4_name=`cat $load_workspace | awk 'NR == 29'`
-btn5_name=`cat $load_workspace | awk 'NR == 33'`
-btn6_name=`cat $load_workspace | awk 'NR == 37'`
-btn7_name=`cat $load_workspace | awk 'NR == 41'`
-btn8_name=`cat $load_workspace | awk 'NR == 45'`
-btn9_name=`cat $load_workspace | awk 'NR == 49'`
-btn10_name=`cat $load_workspace | awk 'NR == 53'`
-btn11_name=`cat $load_workspace | awk 'NR == 57'`
-btn12_name=`cat $load_workspace | awk 'NR == 61'`
+btn1_label=`cat $load_workspace | awk 'NR == 17'`
+btn2_label=`cat $load_workspace | awk 'NR == 21'`
+btn3_label=`cat $load_workspace | awk 'NR == 25'`
+btn4_label=`cat $load_workspace | awk 'NR == 29'`
+btn5_label=`cat $load_workspace | awk 'NR == 33'`
+btn6_label=`cat $load_workspace | awk 'NR == 37'`
+btn7_label=`cat $load_workspace | awk 'NR == 41'`
+btn8_label=`cat $load_workspace | awk 'NR == 45'`
+btn9_label=`cat $load_workspace | awk 'NR == 49'`
+btn10_label=`cat $load_workspace | awk 'NR == 53'`
+btn11_label=`cat $load_workspace | awk 'NR == 57'`
+btn12_label=`cat $load_workspace | awk 'NR == 61'`
+
+# Here the buttons get their tooltips from the functions:
+btn1_tooltip=`cat $load_workspace | awk 'NR == 18'`
+btn2_tooltip=`cat $load_workspace | awk 'NR == 22'`
+btn3_tooltip=`cat $load_workspace | awk 'NR == 26'`
+btn4_tooltip`cat $load_workspace | awk 'NR == 30'`
+btn5_tooltip=`cat $load_workspace | awk 'NR == 34'`
+btn6_tooltip=`cat $load_workspace | awk 'NR == 38'`
+btn7_tooltip=`cat $load_workspace | awk 'NR == 42'`
+btn8_tooltip=`cat $load_workspace | awk 'NR == 46'`
+btn9_tooltip=`cat $load_workspace | awk 'NR == 50'`
+btn10_tooltip=`cat $load_workspace | awk 'NR == 54'`
+btn11_tooltip=`cat $load_workspace | awk 'NR == 58'`
+btn12_tooltip=`cat $load_workspace | awk 'NR == 62'`
+
 }
 
 check_workspace
@@ -147,18 +162,18 @@ yad \
 --center \
 --columns=3 \
 --buttons-layout=center \
---field="$btn1_name"!!'Here you get a description about this function!':BTN "bash -c on_click1" \
---field="$btn2_name"!!'Here you get a description about this function!':BTN "bash -c on_click2" \
---field="$btn3_name"!!'Here you get a description about this function!':BTN "bash -c on_click3" \
---field="$btn4_name"!!'Here you get a description about this function!':BTN "bash -c on_click4" \
---field="$btn5_name"!!'Here you get a description about this function!':BTN "bash -c on_click5" \
---field="$btn6_name"!!'Here you get a description about this function!':BTN "bash -c on_click6" \
---field="$btn7_name"!!'Here you get a description about this function!':BTN "bash -c on_click7" \
---field="$btn8_name"!!'Here you get a description about this function!':BTN "bash -c on_click8" \
---field="$btn9_name"!!'Here you get a description about this function!':BTN "bash -c on_click9" \
---field="$btn10_name"!!'Here you get a description about this function!':BTN "bash -c on_click10" \
---field="$btn11_name"!!'Here you get a description about this function!':BTN "bash -c on_click11" \
---field="$btn12_name"!!'Here you get a description about this function!':BTN "bash -c on_click12" \
+--field="$btn1_name"!!'$btn1_tooltip':BTN "bash -c on_click1" \
+--field="$btn2_name"!!'$btn2_tooltip':BTN "bash -c on_click2" \
+--field="$btn3_name"!!'$btn3_tooltip':BTN "bash -c on_click3" \
+--field="$btn4_name"!!'$btn4_tooltip':BTN "bash -c on_click4" \
+--field="$btn5_name"!!'$btn5_tooltip':BTN "bash -c on_click5" \
+--field="$btn6_name"!!'$btn6_tooltip':BTN "bash -c on_click6" \
+--field="$btn7_name"!!'$btn7_tooltip':BTN "bash -c on_click7" \
+--field="$btn8_name"!!'$btn8_tooltip':BTN "bash -c on_click8" \
+--field="$btn9_name"!!'$btn9_tooltip':BTN "bash -c on_click9" \
+--field="$btn10_name"!!'$btn10_tooltip':BTN "bash -c on_click10" \
+--field="$btn11_name"!!'$btn11_tooltip':BTN "bash -c on_click11" \
+--field="$btn12_name"!!'$btn12_tooltip':BTN "bash -c on_click12" \
 --button="Settings:1"  \
 --button="Close:99"
 
