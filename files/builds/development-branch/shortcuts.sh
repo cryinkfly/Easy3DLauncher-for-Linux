@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    11:30/16.04.2022                                                                   #
-# Version:      0.1.2                                                                              #
+# Time/Date:    11:45/16.04.2022                                                                   #
+# Version:      0.1.3                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts.sh
@@ -38,31 +38,31 @@ fi
 
 # Here the buttons get their names from the functions:
 btn1_label=`cat $load_workspace | awk 'NR == 17'`
-btn2_label=`cat $load_workspace | awk 'NR == 21'`
-btn3_label=`cat $load_workspace | awk 'NR == 25'`
-btn4_label=`cat $load_workspace | awk 'NR == 29'`
-btn5_label=`cat $load_workspace | awk 'NR == 33'`
-btn6_label=`cat $load_workspace | awk 'NR == 37'`
-btn7_label=`cat $load_workspace | awk 'NR == 41'`
-btn8_label=`cat $load_workspace | awk 'NR == 45'`
-btn9_label=`cat $load_workspace | awk 'NR == 49'`
-btn10_label=`cat $load_workspace | awk 'NR == 53'`
-btn11_label=`cat $load_workspace | awk 'NR == 57'`
-btn12_label=`cat $load_workspace | awk 'NR == 61'`
+btn2_label=`cat $load_workspace | awk 'NR == 22'`
+btn3_label=`cat $load_workspace | awk 'NR == 27'`
+btn4_label=`cat $load_workspace | awk 'NR == 32'`
+btn5_label=`cat $load_workspace | awk 'NR == 37'`
+btn6_label=`cat $load_workspace | awk 'NR == 42'`
+btn7_label=`cat $load_workspace | awk 'NR == 47'`
+btn8_label=`cat $load_workspace | awk 'NR == 52'`
+btn9_label=`cat $load_workspace | awk 'NR == 57'`
+btn10_label=`cat $load_workspace | awk 'NR == 62'`
+btn11_label=`cat $load_workspace | awk 'NR == 67'`
+btn12_label=`cat $load_workspace | awk 'NR == 72'`
 
 # Here the buttons get their tooltips from the functions:
 btn1_tooltip=`cat $load_workspace | awk 'NR == 18'`
-btn2_tooltip=`cat $load_workspace | awk 'NR == 22'`
-btn3_tooltip=`cat $load_workspace | awk 'NR == 26'`
-btn4_tooltip`cat $load_workspace | awk 'NR == 30'`
-btn5_tooltip=`cat $load_workspace | awk 'NR == 34'`
-btn6_tooltip=`cat $load_workspace | awk 'NR == 38'`
-btn7_tooltip=`cat $load_workspace | awk 'NR == 42'`
-btn8_tooltip=`cat $load_workspace | awk 'NR == 46'`
-btn9_tooltip=`cat $load_workspace | awk 'NR == 50'`
-btn10_tooltip=`cat $load_workspace | awk 'NR == 54'`
-btn11_tooltip=`cat $load_workspace | awk 'NR == 58'`
-btn12_tooltip=`cat $load_workspace | awk 'NR == 62'`
+btn2_tooltip=`cat $load_workspace | awk 'NR == 23'`
+btn3_tooltip=`cat $load_workspace | awk 'NR == 28'`
+btn4_tooltip`cat $load_workspace | awk 'NR == 33'`
+btn5_tooltip=`cat $load_workspace | awk 'NR == 38'`
+btn6_tooltip=`cat $load_workspace | awk 'NR == 43'`
+btn7_tooltip=`cat $load_workspace | awk 'NR == 48'`
+btn8_tooltip=`cat $load_workspace | awk 'NR == 53'`
+btn9_tooltip=`cat $load_workspace | awk 'NR == 58'`
+btn10_tooltip=`cat $load_workspace | awk 'NR == 63'`
+btn11_tooltip=`cat $load_workspace | awk 'NR == 68'`
+btn12_tooltip=`cat $load_workspace | awk 'NR == 73'`
 
 }
 
