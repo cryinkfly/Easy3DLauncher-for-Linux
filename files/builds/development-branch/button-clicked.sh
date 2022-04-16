@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    11:45/16.04.2022                                                                   #
-# Version:      0.0.2                                                                              #
+# Time/Date:    12:00/16.04.2022                                                                   #
+# Version:      0.0.3                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/button-clicked.sh
@@ -52,29 +52,29 @@ btn12_cmd=`cat $load_workspace | awk 'NR == 74'`
 ###############################################################################################################################################################
 
 function select_btn () {
-if [[ $button_clicked -eq 1 ]]; then
+if [[ $btn_clicked -eq 1 ]]; then
     click1
-elif [[ $button_clicked -eq 2 ]]; then
+elif [[ $btn_clicked -eq 2 ]]; then
     click2
-elif [[ $button_clicked -eq 3 ]]; then
+elif [[ $btn_clicked -eq 3 ]]; then
     click3
-elif [[ $button_clicked -eq 4 ]]; then
+elif [[ $btn_clicked -eq 4 ]]; then
     click4
-elif [[ $button_clicked -eq 5 ]]; then
+elif [[ $btn_clicked -eq 5 ]]; then
     click5
-elif [[ $button_clicked -eq 6 ]]; then
+elif [[ $btn_clicked -eq 6 ]]; then
     click6
-elif [[ $button_clicked -eq 7 ]]; then
+elif [[ $btn_clicked -eq 7 ]]; then
     click7
-elif [[ $button_clicked -eq 8 ]]; then
+elif [[ $btn_clicked -eq 8 ]]; then
     click8
-elif [[ $button_clicked -eq 9 ]]; then
+elif [[ $btn_clicked -eq 9 ]]; then
     click9
-elif [[ $button_clicked -eq 10 ]]; then
+elif [[ $btn_clicked -eq 10 ]]; then
     click10
-elif [[ $button_clicked -eq 11 ]]; then
+elif [[ $btn_clicked -eq 11 ]]; then
     click11
-elif [[ $button_clicked -eq 12 ]]; then
+elif [[ $btn_clicked -eq 12 ]]; then
     click12
 fi
 }
