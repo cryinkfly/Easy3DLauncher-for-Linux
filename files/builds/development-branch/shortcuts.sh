@@ -74,62 +74,62 @@ sync_workspace
 # Here the buttons get the functions:
 
 function on_click1 () {
-button_clicked=1
+btn_clicked=1
 . button-clicked.sh
 }
 
 function on_click2 () {
-button_clicked=2
+btn_clicked=2
 . button-clicked.sh
 }
 
 function on_click3 () {
-button_clicked=3
+btn_clicked=3
 . button-clicked.sh
 }
 
 function on_click4 () {
-button_clicked=4
+btn_clicked=4
 . button-clicked.sh
 }
 
 function on_click5 () {
-button_clicked=5
+btn_clicked=5
 . button-clicked.sh
 }
 
 function on_click6 () {
-button_clicked=6
+btn_clicked=6
 . button-clicked.sh
 }
 
 function on_click7 () {
-button_clicked=7
+btn_clicked=7
 . button-clicked.sh
 }
 
 function on_click8 () {
-button_clicked=8
+btn_clicked=8
 . button-clicked.sh
 }
 
 function on_click9 () {
-button_clicked=9
+btn_clicked=9
 . button-clicked.sh
 }
 
 function on_click10 () {
-button_clicked=10
+btn_clicked=10
 . button-clicked.sh
 }
 
 function on_click11 () {
-button_clicked=11
+btn_clicked=11
 . button-clicked.sh
 }
 
 function on_click12 () {
-button_clicked=12
+btn_clicked=12
 . button-clicked.sh
 }
 
@@ -162,18 +162,18 @@ yad \
 --center \
 --columns=3 \
 --buttons-layout=center \
---field="$btn1_name"!!'$btn1_tooltip':BTN "bash -c on_click1" \
---field="$btn2_name"!!'$btn2_tooltip':BTN "bash -c on_click2" \
---field="$btn3_name"!!'$btn3_tooltip':BTN "bash -c on_click3" \
---field="$btn4_name"!!'$btn4_tooltip':BTN "bash -c on_click4" \
---field="$btn5_name"!!'$btn5_tooltip':BTN "bash -c on_click5" \
---field="$btn6_name"!!'$btn6_tooltip':BTN "bash -c on_click6" \
---field="$btn7_name"!!'$btn7_tooltip':BTN "bash -c on_click7" \
---field="$btn8_name"!!'$btn8_tooltip':BTN "bash -c on_click8" \
---field="$btn9_name"!!'$btn9_tooltip':BTN "bash -c on_click9" \
---field="$btn10_name"!!'$btn10_tooltip':BTN "bash -c on_click10" \
---field="$btn11_name"!!'$btn11_tooltip':BTN "bash -c on_click11" \
---field="$btn12_name"!!'$btn12_tooltip':BTN "bash -c on_click12" \
+--field="$btn1_label"!!'$btn1_tooltip':BTN "bash -c on_click1" \
+--field="$btn2_label"!!'$btn2_tooltip':BTN "bash -c on_click2" \
+--field="$btn3_label"!!'$btn3_tooltip':BTN "bash -c on_click3" \
+--field="$btn4_label"!!'$btn4_tooltip':BTN "bash -c on_click4" \
+--field="$btn5_label"!!'$btn5_tooltip':BTN "bash -c on_click5" \
+--field="$btn6_label"!!'$btn6_tooltip':BTN "bash -c on_click6" \
+--field="$btn7_label"!!'$btn7_tooltip':BTN "bash -c on_click7" \
+--field="$btn8_label"!!'$btn8_tooltip':BTN "bash -c on_click8" \
+--field="$btn9_label"!!'$btn9_tooltip':BTN "bash -c on_click9" \
+--field="$btn10_label"!!'$btn10_tooltip':BTN "bash -c on_click10" \
+--field="$btn11_label"!!'$btn11_tooltip':BTN "bash -c on_click11" \
+--field="$btn12_label"!!'$btn12_tooltip':BTN "bash -c on_click12" \
 --button="Settings:1"  \
 --button="Close:99"
 
