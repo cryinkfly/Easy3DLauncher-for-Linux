@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    11:45/16.04.2022                                                                   #
-# Version:      0.1.3                                                                              #
+# Time/Date:    13:00/16.04.2022                                                                   #
+# Version:      0.1.4                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts.sh
@@ -162,18 +162,18 @@ yad \
 --center \
 --columns=3 \
 --buttons-layout=center \
---field="$btn1_label"!!'$btn1_tooltip':BTN "bash -c on_click1" \
---field="$btn2_label"!!'$btn2_tooltip':BTN "bash -c on_click2" \
---field="$btn3_label"!!'$btn3_tooltip':BTN "bash -c on_click3" \
---field="$btn4_label"!!'$btn4_tooltip':BTN "bash -c on_click4" \
---field="$btn5_label"!!'$btn5_tooltip':BTN "bash -c on_click5" \
---field="$btn6_label"!!'$btn6_tooltip':BTN "bash -c on_click6" \
---field="$btn7_label"!!'$btn7_tooltip':BTN "bash -c on_click7" \
---field="$btn8_label"!!'$btn8_tooltip':BTN "bash -c on_click8" \
---field="$btn9_label"!!'$btn9_tooltip':BTN "bash -c on_click9" \
---field="$btn10_label"!!'$btn10_tooltip':BTN "bash -c on_click10" \
---field="$btn11_label"!!'$btn11_tooltip':BTN "bash -c on_click11" \
---field="$btn12_label"!!'$btn12_tooltip':BTN "bash -c on_click12" \
+--field="$btn1_label"!!"$btn1_tooltip":BTN "bash -c on_click1" \
+--field="$btn2_label"!!"$btn2_tooltip":BTN "bash -c on_click2" \
+--field="$btn3_label"!!"$btn3_tooltip":BTN "bash -c on_click3" \
+--field="$btn4_label"!!"$btn4_tooltip":BTN "bash -c on_click4" \
+--field="$btn5_label"!!"$btn5_tooltip":BTN "bash -c on_click5" \
+--field="$btn6_label"!!"$btn6_tooltip":BTN "bash -c on_click6" \
+--field="$btn7_label"!!"$btn7_tooltip":BTN "bash -c on_click7" \
+--field="$btn8_label"!!"$btn8_tooltip":BTN "bash -c on_click8" \
+--field="$btn9_label"!!"$btn9_tooltip":BTN "bash -c on_click9" \
+--field="$btn10_label"!!"$btn10_tooltip":BTN "bash -c on_click10" \
+--field="$btn11_label"!!"$btn11_tooltip":BTN "bash -c on_click11" \
+--field="$btn12_label"!!"$btn12_tooltip":BTN "bash -c on_click12" \
 --button="Settings:1"  \
 --button="Close:99"
 
