@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    10:30/14.04.2022                                                                   #
-# Version:      0.0.1                                                                              #
+# Time/Date:    11:45/16.04.2022                                                                   #
+# Version:      0.0.2                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/button-clicked.sh
