@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                              #
 # License:      MIT                                                                                #
 # Copyright (c) 2022                                                                               #
-# Time/Date:    19:00/15.04.2022                                                                   #
-# Version:      0.1.0                                                                              #
+# Time/Date:    11:00/16.04.2022                                                                   #
+# Version:      0.1.1                                                                              #
 ####################################################################################################
 
 # Path: /$HOME/.config/Easy3DLauncher/bin/shortcuts.sh
@@ -147,18 +147,18 @@ yad \
 --center \
 --columns=3 \
 --buttons-layout=center \
---field="$btn1_name":BTN "bash -c on_click1" \
---field="$btn2_name":BTN "bash -c on_click2" \
---field="$btn3_name":BTN "bash -c on_click3" \
---field="$btn4_name":BTN "bash -c on_click4" \
---field="$btn5_name":BTN "bash -c on_click5" \
---field="$btn6_name":BTN "bash -c on_click6" \
---field="$btn7_name":BTN "bash -c on_click7" \
---field="$btn8_name":BTN "bash -c on_click8" \
---field="$btn9_name":BTN "bash -c on_click9" \
---field="$btn10_name":BTN "bash -c on_click10" \
---field="$btn11_name":BTN "bash -c on_click11" \
---field="$btn12_name":BTN "bash -c on_click12" \
+--field="$btn1_name"!!'Here you get a description about this function!':BTN "bash -c on_click1" \
+--field="$btn2_name"!!'Here you get a description about this function!':BTN "bash -c on_click2" \
+--field="$btn3_name"!!'Here you get a description about this function!':BTN "bash -c on_click3" \
+--field="$btn4_name"!!'Here you get a description about this function!':BTN "bash -c on_click4" \
+--field="$btn5_name"!!'Here you get a description about this function!':BTN "bash -c on_click5" \
+--field="$btn6_name"!!'Here you get a description about this function!':BTN "bash -c on_click6" \
+--field="$btn7_name"!!'Here you get a description about this function!':BTN "bash -c on_click7" \
+--field="$btn8_name"!!'Here you get a description about this function!':BTN "bash -c on_click8" \
+--field="$btn9_name"!!'Here you get a description about this function!':BTN "bash -c on_click9" \
+--field="$btn10_name"!!'Here you get a description about this function!':BTN "bash -c on_click10" \
+--field="$btn11_name"!!'Here you get a description about this function!':BTN "bash -c on_click11" \
+--field="$btn12_name"!!'Here you get a description about this function!':BTN "bash -c on_click12" \
 --button="Settings:1"  \
 --button="Close:99"
 
