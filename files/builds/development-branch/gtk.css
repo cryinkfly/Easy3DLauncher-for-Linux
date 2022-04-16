@@ -93,3 +93,26 @@ treeview.view header button box {
    background-color: #EFEFEF;
    border-radius: 4px;
 }
+
+tooltip {
+   border-radius: 2px;
+   box-shadow: none; 
+}
+
+tooltip.background {
+   background-color: rgba(33, 33, 33, 0.975);
+   background-clip: padding-box; 
+}
+
+tooltip.background label {
+   padding: 4px; 
+}
+ 
+tooltip decoration {
+   background-color: transparent; 
+}
+
+tooltip * {
+   background-color: transparent;
+   color: #E6BEAE; 
+}
