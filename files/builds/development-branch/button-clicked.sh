@@ -35,18 +35,18 @@ elif [[ $current_workspace = "Workspace=2" ]]; then
 else
     load_workspace=`cat $HOME/.config/Easy3DLauncher/profiles/profile.config | awk 'NR == 27'`
 fi
-button1=`cat $load_workspace | awk 'NR == 18'`
-button2=`cat $load_workspace | awk 'NR == 22'`
-button3=`cat $load_workspace | awk 'NR == 26'`
-button4=`cat $load_workspace | awk 'NR == 30'`
-button5=`cat $load_workspace | awk 'NR == 34'`
-button6=`cat $load_workspace | awk 'NR == 38'`
-button7=`cat $load_workspace | awk 'NR == 42'`
-button8=`cat $load_workspace | awk 'NR == 46'`
-button9=`cat $load_workspace | awk 'NR == 50'`
-button10=`cat $load_workspace | awk 'NR == 54'`
-button11=`cat $load_workspace | awk 'NR == 58'`
-button12=`cat $load_workspace | awk 'NR == 62'`
+btn1_cmd=`cat $load_workspace | awk 'NR == 19'`
+btn2_cmd=`cat $load_workspace | awk 'NR == 24'`
+btn3_cmd=`cat $load_workspace | awk 'NR == 29'`
+btn4_cmd=`cat $load_workspace | awk 'NR == 34'`
+btn5_cmd=`cat $load_workspace | awk 'NR == 39'`
+btn6_cmd=`cat $load_workspace | awk 'NR == 44'`
+btn7_cmd=`cat $load_workspace | awk 'NR == 49'`
+btn8_cmd=`cat $load_workspace | awk 'NR == 54'`
+btn9_cmd=`cat $load_workspace | awk 'NR == 59'`
+btn10_cmd=`cat $load_workspace | awk 'NR == 64'`
+btn11_cmd=`cat $load_workspace | awk 'NR == 69'`
+btn12_cmd=`cat $load_workspace | awk 'NR == 74'`
 }
 
 ###############################################################################################################################################################
@@ -82,51 +82,51 @@ fi
 ###############################################################################################################################################################
 
 function click1 () {
-bash -c "$button1"
+bash -c "$btn1_cmd"
 }
 
 function click2 () {
-bash -c "$button2"
+bash -c "$btn2_cmd"
 }
 
 function click3 () {
-bash -c "$button3"
+bash -c "$btn3_cmd"
 }
 
 function click4 () {
-bash -c "$button4"
+bash -c "$btn4_cmd"
 }
 
 function click5 () {
-bash -c "$button5"
+bash -c "$btn5_cmd"
 }
 
 function click6 () {
-bash -c "$button6"
+bash -c "$btn6_cmd"
 }
 
 function click7 () {
-bash -c "$button7"
+bash -c "$btn7_cmd"
 }
 
 function click8 () {
-bash -c "$button8"
+bash -c "$btn8_cmd"
 }
 
 function click9 () {
-bash -c "$button9"
+bash -c "$btn9_cmd"
 }
 
 function click10 () {
-bash -c "$button10"
+bash -c "$btn10_cmd"
 }
 
 function click11 () {
-bash -c "$button11"
+bash -c "$btn11_cmd"
 }
 
 function click12 () {
-bash -c "$button12"
+bash -c "$btn12_cmd"
 }
 
 ###############################################################################################################################################################
